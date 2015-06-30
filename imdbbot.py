@@ -15,7 +15,7 @@ def comment_reply(movie):
 	comm += ('**Genre(s):** ' + sp.join(movie['genres']) + '\n \n')
 	comm += ('**Runtime(s):** ' + sp.join(movie['duration']) + '\n \n')
 	comm += ('**Description:** ' + movie['description'] + '\n \n')
-	comm += ("--- \n \n  ^This ^is ^a ^bot ^post. ^Message ^/u/Dephinite ^for ^suggestions/feedback." )
+	comm += ("--- \n \n  ^This ^is ^a ^bot ^post. ^Message ^for ^suggestions/feedback." )
 
 	return comm
 

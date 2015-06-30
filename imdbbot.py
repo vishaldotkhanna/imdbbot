@@ -2,7 +2,7 @@ import praw, re, requests, imdbparser, time
 from bs4 import BeautifulSoup, SoupStrainer 
 
 r = praw.Reddit(user_agent = 'IMDb parser by Dephinite')
-r.login('imdbbot2', 'kehkelunga', disable_warning = True)
+r.login('imdbbot2', 'enter-password-here', disable_warning = True)
 already = []
 sp = ', '
 

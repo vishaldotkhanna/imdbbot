@@ -1,1 +1,1 @@
-# imdbbot
+# IMDb BOT for Reddit
